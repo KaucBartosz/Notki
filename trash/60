@@ -1,0 +1,21 @@
+Z1 2023-10-07
+========================
+Kodowanie w systemie który używa systemu binarnego. Wejścia i wyjścia
+En = rezultat
+Cn = przeniesienie
+|An||Bn||Cn-1||En||Cn|
+|0||0||0||0||0|
+|0||0||1||1||0|
+|0||1||0||1||0|
+|0||1||1||0||1|
+|1||0||0||1||0|
+|1||0||1||0||1|
+|1||1||0||0||1|
+|1||1||1||1||1|
+
+Są trzy wejścia i dwa wyjścia (wyjścia to rezultat i przeniesienie)
+Wejścia to An, Bn i Cn-1
+n to numer komórki (to samo co w tablicy, tylko pamiętaj że w binarnym czyta się od prawej)
+
+Chodzi o dodawanie dwóch liczb w binarnym 
+|0|0|0|1|0|1|0|
