@@ -39,4 +39,6 @@ Co głosi prawo Ohma?
 - Że Napięcie jest prostopadłe do Natężenia
 
 Co głosi pierwsze i drugie prawo Kirchhoffa
-- Pierwsze głosi iż 
+- Pierwsze głosi iż z węzła wypływa tyle samo prądu co do niego wpływa, a węzłem nazywamy miejsca w których łączą się przewody, ścieżki lub wyprowadzenia
+- Drugie głosi iż jeśli wybierzemy dowolną drogę zamkniętą w obwodzie, to suma napięć pochodzących od źródeł zasilania jest równa sumie napięć pozostałych elementów.
+
