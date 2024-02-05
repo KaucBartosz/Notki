@@ -77,5 +77,57 @@ Czym wyrażamy pojemność kondensatora?
     * nanofaradami [nF] (1 nF = 0,000 000 001 F),
     * mikrofaradami [μF] (1 μF = 0,000 001 F).
 
+Jak możemy łączyć kondensatory?
+- Szeregowo i Równolegle
+    * Równolegle to po prostu suma ich pojemności
+    * Szeregowo sprawia że pojemność jest mniejsza niż pojemność najmniejszego z kondensatorów
 
- 
+Jakie zastosowanie mają kondensatory?
+- Korzystamy z nich w celu filtracji zasilania, pozbycia się zakłóceń spowodowanych przerwami w zasialniu bądź nagłymi skokami natężenia.
+
+Jakich kondensatorów powinno się do tego używać?
+- Zaleca się korzystać z ceramicznego 100 nF
+    * Kondensatory elektrolityczne nie najlepiej sobie radzą z filtrowaniem sygnałów o bardzo dużych częstotliwościach.
+    * Natomiast ceramiczne mają problem z zakłóceniami o niewielkich częstotliwościach 
+        * Dlatego najlepszym rozwiązaniem jest połączenie równoległe obu kondensatorów
+
+4.Cewka/Dławik
+---
+Jak wygląda cewka?
+- Jest to spirala stworzona z drutu, która może być nawinięta na magnetyczny materiał bądź na powietrze jeśli drut jest dość sztywny. Jest też możliwe owinieńcię na papierze ale jest to nazywane też owinięciem powietrznym gdyż papier jest obojętny magnetycznie.
+
+Jak zachowuje się cewka?
+- Jeśli przepuscimy przez cewkę prąd i naglę go odłączymy to wygeneroway zostanie skok napięcia gdyż cewka chce podtrzymać przepływ prądu.
+
+Czym charakteryzuje się cewka?
+- Przy przeływie prądu Cewka wywtarza pole magnetyczne, a moc cewki określamy `indukcyjnością` wyrażaną w henrach `[H]`, nanohenrach `[nH]`, mikrohenrach `[μH]` i milihenrach `[mH]`.
+
+W jaki sposób włączamy Cewke do układu?
+- Wpinamy je szeregowo z zasilanym urządzeniem. 
+
+Czemu?
+- Gdyż Ceka/Dławik stanowi bardzo mały opór dla prądu stałego, natomiast dla zmiennego znacznie większy
+
+Od czego jest zależna indukcyjność Cewki?
+- Od ilości zwojów (obrotów) drutu. 
+    * Co ważne dla większej indukcyjności korzysta się z cieńszych drutów bo rozmiar `karkasu` (tego na czym owija się drut) jest ograniczony. Jednak im cieńszy drut tym mniejszy jest maksymalny prąd.
+    * Wniosek: Maksymalny prąd jest przeciw proporcjonalny do indukcyjności i na odwrót
+
+5.Diody
+---
+Jakiego typu diody wyróżniamy?
+- Krzemowe
+- Świecące
+
+Jaka jest wspólna cecha diod?
+- Pozwalają aby prąd przepływał tylko w jednym kierunku
+
+Jakie 4 wartości posiadia dioda?
+- Maksymalne napięcie wsteczne - czyli maksymalne napięcię jakie może znieść dioda bez ryzyka jej uszkodzenia
+- Maksymalny prąd przewodzenia - maksymalna wartość prądu, jej przekroczenie grozi zniszczeniem
+- Maksymalna moc strat - dioda ulega nagrzaniu przy przewodzeniu prądu, zbytnie nagrzanie może spowodować spalenie diody
+- Napięcie przewodzenia - napięcie występujące miedzy końcami diody, a jego wartośc jest zależna od natężenia prądu przepływającego przez diodę
+
+Jak można podłączyć wiele diod?
+- Przy połączeniu równolege ale powinny składać się one z par rezystor-dioda
+- Drugą opcją jest szeregowo ale należy wtedy zwięszyć napięcie niż założone
