@@ -131,3 +131,22 @@ Jakie 4 wartości posiadia dioda?
 Jak można podłączyć wiele diod?
 - Przy połączeniu równolege ale powinny składać się one z par rezystor-dioda
 - Drugą opcją jest szeregowo ale należy wtedy zwięszyć napięcie niż założone
+
+6.Tranzysotry bipolarne
+---
+Czym jest tranzysotr?
+- Elementem półprzewodnikowym mającym zazywyczaj trzy wyprowadzenia
+
+Jakie elementy tranzysotra wyróżniamy?
+- Wyrózniamy trzy elementy
+    * Emiter (E)
+    * Baza (B)
+    * Kolektor (C lub K)
+
+Co robi tranzystor?
+- Efektem jego działania jest wzmnocnienie prądowe
+
+7.Stabilizatory
+---
+Na co pozwalają?
+- Na uzyskanie stabilnego napięcia stałego, którego wartość jest niezależna.
