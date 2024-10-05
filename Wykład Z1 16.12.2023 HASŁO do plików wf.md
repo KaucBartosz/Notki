@@ -1,4 +1,4 @@
-Wykład Z1 16.12.2023
+Wykład Z1 16.12.2023 HASŁO do plików: wf
 ========================
 KLASA TO TYP DANYCH
 --
